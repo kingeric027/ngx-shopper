@@ -1,6 +1,7 @@
+import 'zone.js/dist/zone-node';
+import 'reflect-metadata';
 import { renderModuleFactory } from '@angular/platform-server';
 import { writeFileSync } from 'fs';
-import 'zone.js/dist/zone-node';
 
 const {
   AppServerModuleNgFactory,
@@ -11,8 +12,9 @@ renderModuleFactory(AppServerModuleNgFactory, {
   url: '/',
 })
   .then((html) => {
+    console.log('Pre-rendering successful, saving prerender.html');
     writeFileSync('./prerender.html', html);
   })
-  .catch((err) => {
-    console.error(err);
+  .catch((error) => {
+    console.error('Error occurred:', error);
   });
