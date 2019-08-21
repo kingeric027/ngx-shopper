@@ -1,13 +1,13 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LineItemCardComponent } from '@app-buyer/shared/components/line-item-card/line-item-card.component';
+import { LineItemCardComponent } from 'src/app/shared/components/line-item-card/line-item-card.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { RouterTestingModule } from '@angular/router/testing';
 
 import { ReactiveFormsModule, FormBuilder } from '@angular/forms';
 import { ToastrModule, ToastrService } from 'ngx-toastr';
 import { NO_ERRORS_SCHEMA } from '@angular/core';
-import { CartService } from '@app-buyer/shared/services/cart/cart.service';
+import { CartService } from 'src/app/shared/services/cart/cart.service';
 import { of } from 'rxjs';
 
 describe('LineItemCardComponent', () => {

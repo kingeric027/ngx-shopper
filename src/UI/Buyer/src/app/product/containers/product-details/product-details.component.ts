@@ -7,7 +7,7 @@ import {
 } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Observable, forkJoin, of } from 'rxjs';
-import { CartService, AppStateService } from '@app-buyer/shared';
+import { CartService, AppStateService } from 'src/app/shared';
 import {
   BuyerProduct,
   OcMeService,
@@ -15,12 +15,12 @@ import {
   LineItemSpec,
   SpecOption,
 } from '@ordercloud/angular-sdk';
-import { QuantityInputComponent } from '@app-buyer/shared/components/quantity-input/quantity-input.component';
-import { AddToCartEvent } from '@app-buyer/shared/models/add-to-cart-event.interface';
+import { QuantityInputComponent } from 'src/app/shared/components/quantity-input/quantity-input.component';
+import { AddToCartEvent } from 'src/app/shared/models/add-to-cart-event.interface';
 import { minBy as _minBy } from 'lodash';
-import { FavoriteProductsService } from '@app-buyer/shared/services/favorites/favorites.service';
+import { FavoriteProductsService } from 'src/app/shared/services/favorites/favorites.service';
 import { find as _find, difference as _difference } from 'lodash';
-import { SpecFormComponent } from '@app-buyer/product/components/spec-form/spec-form.component';
+import { SpecFormComponent } from 'src/app/product/components/spec-form/spec-form.component';
 @Component({
   selector: 'product-details',
   templateUrl: './product-details.component.html',

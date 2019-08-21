@@ -11,11 +11,11 @@ import {
   AppMatchFieldsValidator,
   ValidateStrongPassword,
   AppFormErrorService,
-} from '@app-buyer/shared';
+} from 'src/app/shared';
 import {
   applicationConfiguration,
   AppConfig,
-} from '@app-buyer/config/app.config';
+} from 'src/app/config/app.config';
 import { OcPasswordResetService, PasswordReset } from '@ordercloud/angular-sdk';
 
 @Component({

@@ -1,11 +1,11 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { Observable, throwError } from 'rxjs';
 import { Order, OcOrderService } from '@ordercloud/angular-sdk';
-import { AppStateService, BaseResolveService } from '@app-buyer/shared';
+import { AppStateService, BaseResolveService } from 'src/app/shared';
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
 import { NgbAccordion } from '@ng-bootstrap/ng-bootstrap';
 import { Router } from '@angular/router';
-import { AppErrorHandler } from '@app-buyer/config/error-handling.config';
+import { AppErrorHandler } from 'src/app/config/error-handling.config';
 import { flatMap } from 'rxjs/operators';
 
 @Component({

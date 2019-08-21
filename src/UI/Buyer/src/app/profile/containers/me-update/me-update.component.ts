@@ -6,11 +6,11 @@ import { flatMap } from 'rxjs/operators';
 import {
   applicationConfiguration,
   AppConfig,
-} from '@app-buyer/config/app.config';
-import { AppStateService } from '@app-buyer/shared/services/app-state/app-state.service';
-import { AppFormErrorService } from '@app-buyer/shared/services/form-error/form-error.service';
-import { ModalService } from '@app-buyer/shared/services/modal/modal.service';
-import { RegexService } from '@app-buyer/shared/services/regex/regex.service';
+} from 'src/app/config/app.config';
+import { AppStateService } from 'src/app/shared/services/app-state/app-state.service';
+import { AppFormErrorService } from 'src/app/shared/services/form-error/form-error.service';
+import { ModalService } from 'src/app/shared/services/modal/modal.service';
+import { RegexService } from 'src/app/shared/services/regex/regex.service';
 
 @Component({
   selector: 'profile-meupdate',

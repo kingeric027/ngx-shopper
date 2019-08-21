@@ -6,8 +6,8 @@ import {
 import {
   NgbDateNativeAdapter,
   NgbDateCustomParserFormatter,
-} from '@app-buyer/config/date-picker.config';
-import { AppStateService } from '@app-buyer/shared';
+} from 'src/app/config/date-picker.config';
+import { AppStateService } from 'src/app/shared';
 import { Observable } from 'rxjs';
 
 @Component({

@@ -7,7 +7,7 @@ import {
   Order,
   LineItemSpec,
 } from '@ordercloud/angular-sdk';
-import { AppStateService } from '@app-buyer/shared/services/app-state/app-state.service';
+import { AppStateService } from 'src/app/shared/services/app-state/app-state.service';
 import { Observable, of, forkJoin } from 'rxjs';
 import { tap, flatMap, map } from 'rxjs/operators';
 import {

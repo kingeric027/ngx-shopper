@@ -8,16 +8,16 @@ import { CookieModule } from 'ngx-cookie';
 import { of } from 'rxjs';
 import { OcOrderService, OcMeService } from '@ordercloud/angular-sdk';
 
-import { CartComponent } from '@app-buyer/checkout/containers/cart/cart.component';
+import { CartComponent } from 'src/app/checkout/containers/cart/cart.component';
 import {
   AppStateService,
   BaseResolveService,
   CartService,
-} from '@app-buyer/shared';
+} from 'src/app/shared';
 import {
   applicationConfiguration,
   AppConfig,
-} from '@app-buyer/config/app.config';
+} from 'src/app/config/app.config';
 
 describe('CartComponent', () => {
   let component: CartComponent;

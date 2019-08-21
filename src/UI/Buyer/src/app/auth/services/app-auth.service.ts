@@ -8,11 +8,11 @@ import { OcTokenService, OcAuthService } from '@ordercloud/angular-sdk';
 import {
   applicationConfiguration,
   AppConfig,
-} from '@app-buyer/config/app.config';
+} from 'src/app/config/app.config';
 import { CookieService } from 'ngx-cookie';
-import { AppErrorHandler } from '@app-buyer/config/error-handling.config';
-import { AppStateService } from '@app-buyer/shared/services/app-state/app-state.service';
-import { BaseResolveService } from '@app-buyer/shared/services/base-resolve/base-resolve.service';
+import { AppErrorHandler } from 'src/app/config/error-handling.config';
+import { AppStateService } from 'src/app/shared/services/app-state/app-state.service';
+import { BaseResolveService } from 'src/app/shared/services/base-resolve/base-resolve.service';
 
 export const TokenRefreshAttemptNotPossible =
   'Token refresh attempt not possible';

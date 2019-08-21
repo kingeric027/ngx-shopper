@@ -7,8 +7,8 @@ import {
   OnInit,
   ViewEncapsulation,
 } from '@angular/core';
-import { QuantityInputComponent } from '@app-buyer/shared/components/quantity-input/quantity-input.component';
-import { AddToCartEvent } from '@app-buyer/shared/models/add-to-cart-event.interface';
+import { QuantityInputComponent } from 'src/app/shared/components/quantity-input/quantity-input.component';
+import { AddToCartEvent } from 'src/app/shared/models/add-to-cart-event.interface';
 import { BuyerProduct } from '@ordercloud/angular-sdk';
 import { Router } from '@angular/router';
 import { find as _find } from 'lodash';

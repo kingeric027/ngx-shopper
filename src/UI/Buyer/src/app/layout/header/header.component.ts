@@ -9,7 +9,7 @@ import {
 import {
   applicationConfiguration,
   AppConfig,
-} from '@app-buyer/config/app.config';
+} from 'src/app/config/app.config';
 import { Router, ActivatedRoute } from '@angular/router';
 import {
   faSearch,
@@ -22,12 +22,12 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import { NgbPopover } from '@ng-bootstrap/ng-bootstrap';
 import { Observable } from 'rxjs';
-import { AppStateService } from '@app-buyer/shared';
+import { AppStateService } from 'src/app/shared';
 import { Order, MeUser, ListCategory } from '@ordercloud/angular-sdk';
 import { takeWhile, tap, debounceTime, delay, filter } from 'rxjs/operators';
-import { AddToCartEvent } from '@app-buyer/shared/models/add-to-cart-event.interface';
-import { AppAuthService } from '@app-buyer/auth';
-import { SearchComponent } from '@app-buyer/shared/components/search/search.component';
+import { AddToCartEvent } from 'src/app/shared/models/add-to-cart-event.interface';
+import { AppAuthService } from 'src/app/auth';
+import { SearchComponent } from 'src/app/shared/components/search/search.component';
 
 @Component({
   selector: 'layout-header',

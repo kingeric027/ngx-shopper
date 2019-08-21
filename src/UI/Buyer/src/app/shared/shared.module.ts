@@ -4,7 +4,7 @@ import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
 
-import { SharedRoutingModule } from '@app-buyer/shared/shared-routing.module';
+import { SharedRoutingModule } from 'src/app/shared/shared-routing.module';
 
 // 3rd party UI
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
@@ -24,39 +24,39 @@ import {
 } from '@ng-bootstrap/ng-bootstrap';
 
 // pipes
-import { OrderStatusDisplayPipe } from '@app-buyer/shared/pipes/order-status-display/order-status-display.pipe';
-import { PaymentMethodDisplayPipe } from '@app-buyer/shared/pipes/payment-method-display/payment-method-display.pipe';
+import { OrderStatusDisplayPipe } from 'src/app/shared/pipes/order-status-display/order-status-display.pipe';
+import { PaymentMethodDisplayPipe } from 'src/app/shared/pipes/payment-method-display/payment-method-display.pipe';
 
 // directives
 import { FallbackImageDirective } from './directives/fallback-image/fallback-image.directive';
 
 // components
-import { AddressFormComponent } from '@app-buyer/shared/components/address-form/address-form.component';
-import { CreditCardFormComponent } from '@app-buyer/shared/components/credit-card-form/credit-card-form.component';
-import { CreditCardIconComponent } from '@app-buyer/shared/components/credit-card-icon/credit-card-icon.component';
-import { SearchComponent } from '@app-buyer/shared/components/search/search.component';
-import { PageTitleComponent } from '@app-buyer/shared/components/page-title/page-title.component';
-import { AddressDisplayComponent } from '@app-buyer/shared/components/address-display/address-display.component';
-import { CreditCardDisplayComponent } from '@app-buyer/shared/components/credit-card-display/credit-card-display.component';
-import { LineItemCardComponent } from '@app-buyer/shared/components/line-item-card/line-item-card.component';
-import { LineItemListWrapperComponent } from '@app-buyer/shared/components/lineitem-list-wrapper/lineitem-list-wrapper.component';
+import { AddressFormComponent } from 'src/app/shared/components/address-form/address-form.component';
+import { CreditCardFormComponent } from 'src/app/shared/components/credit-card-form/credit-card-form.component';
+import { CreditCardIconComponent } from 'src/app/shared/components/credit-card-icon/credit-card-icon.component';
+import { SearchComponent } from 'src/app/shared/components/search/search.component';
+import { PageTitleComponent } from 'src/app/shared/components/page-title/page-title.component';
+import { AddressDisplayComponent } from 'src/app/shared/components/address-display/address-display.component';
+import { CreditCardDisplayComponent } from 'src/app/shared/components/credit-card-display/credit-card-display.component';
+import { LineItemCardComponent } from 'src/app/shared/components/line-item-card/line-item-card.component';
+import { LineItemListWrapperComponent } from 'src/app/shared/components/lineitem-list-wrapper/lineitem-list-wrapper.component';
 
 // containers
 import {
   ShipperTrackingPipe,
   ShipperTrackingSupportedPipe,
-} from '@app-buyer/shared/pipes/shipperTracking/shipperTracking.pipe';
-import { QuantityInputComponent } from '@app-buyer/shared/components/quantity-input/quantity-input.component';
-import { ToggleFavoriteComponent } from '@app-buyer/shared/components/toggle-favorite/toggle-favorite.component';
-import { ProductCardComponent } from '@app-buyer/shared/components/product-card/product-card.component';
-import { ProductCarouselComponent } from '@app-buyer/shared/components/product-carousel/product-carousel.component';
-import { MapToIterablePipe } from '@app-buyer/shared/pipes/map-to-iterable/map-to-iterable.pipe';
-import { GenericBrowseComponent } from '@app-buyer/shared/components/generic-browse/generic-browse.component';
+} from 'src/app/shared/pipes/shipperTracking/shipperTracking.pipe';
+import { QuantityInputComponent } from 'src/app/shared/components/quantity-input/quantity-input.component';
+import { ToggleFavoriteComponent } from 'src/app/shared/components/toggle-favorite/toggle-favorite.component';
+import { ProductCardComponent } from 'src/app/shared/components/product-card/product-card.component';
+import { ProductCarouselComponent } from 'src/app/shared/components/product-carousel/product-carousel.component';
+import { MapToIterablePipe } from 'src/app/shared/pipes/map-to-iterable/map-to-iterable.pipe';
+import { GenericBrowseComponent } from 'src/app/shared/components/generic-browse/generic-browse.component';
 import {
   ModalComponent,
   ResetDirective,
-} from '@app-buyer/shared/components/modal/modal.component';
-import { OrderPaymentListComponent } from '@app-buyer/shared/components/payment-list/order-payment-list.component';
+} from 'src/app/shared/components/modal/modal.component';
+import { OrderPaymentListComponent } from 'src/app/shared/components/payment-list/order-payment-list.component';
 import { NoResultsComponent } from './components/no-results/no-results.component';
 import { MiniCartComponent } from './components/mini-cart/mini-cart.component';
 import { PhoneFormatPipe } from './pipes/phone-format/phone-format.pipe';

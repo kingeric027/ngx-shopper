@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { OrderSummaryComponent } from '@app-buyer/checkout/components/order-summary/order-summary.component';
+import { OrderSummaryComponent } from 'src/app/checkout/components/order-summary/order-summary.component';
 import { CurrencyPipe } from '@angular/common';
 
 describe('OrderSummaryComponent', () => {

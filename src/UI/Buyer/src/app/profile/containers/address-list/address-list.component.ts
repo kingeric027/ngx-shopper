@@ -8,7 +8,7 @@ import {
   BuyerAddress,
 } from '@ordercloud/angular-sdk';
 import { faTrashAlt, faEdit } from '@fortawesome/free-regular-svg-icons';
-import { ModalService } from '@app-buyer/shared';
+import { ModalService } from 'src/app/shared';
 
 @Component({
   selector: 'profile-address-list',

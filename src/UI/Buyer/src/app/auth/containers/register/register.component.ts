@@ -6,10 +6,10 @@ import { OcMeService, OcTokenService, MeUser } from '@ordercloud/angular-sdk';
 import {
   applicationConfiguration,
   AppConfig,
-} from '@app-buyer/config/app.config';
-import { AppFormErrorService } from '@app-buyer/shared/services/form-error/form-error.service';
-import { AppMatchFieldsValidator } from '@app-buyer/shared/validators/match-fields/match-fields.validator';
-import { RegexService } from '@app-buyer/shared/services/regex/regex.service';
+} from 'src/app/config/app.config';
+import { AppFormErrorService } from 'src/app/shared/services/form-error/form-error.service';
+import { AppMatchFieldsValidator } from 'src/app/shared/validators/match-fields/match-fields.validator';
+import { RegexService } from 'src/app/shared/services/regex/regex.service';
 
 @Component({
   selector: 'auth-register',

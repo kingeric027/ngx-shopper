@@ -8,11 +8,11 @@ import {
 } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { BuyerProduct } from '@ordercloud/angular-sdk';
-import { ProductQtyValidator } from '@app-buyer/shared/validators/product-quantity/product.quantity.validator';
+import { ProductQtyValidator } from 'src/app/shared/validators/product-quantity/product.quantity.validator';
 import { ToastrService } from 'ngx-toastr';
-import { AddToCartEvent } from '@app-buyer/shared/models/add-to-cart-event.interface';
+import { AddToCartEvent } from 'src/app/shared/models/add-to-cart-event.interface';
 import { debounceTime, takeWhile } from 'rxjs/operators';
-import { AppFormErrorService } from '@app-buyer/shared/services/form-error/form-error.service';
+import { AppFormErrorService } from 'src/app/shared/services/form-error/form-error.service';
 
 @Component({
   selector: 'shared-quantity-input',

@@ -8,8 +8,8 @@ import {
   ModalService,
   CartService,
   AppReorderService,
-} from '@app-buyer/shared';
-import { OrderReorderResponse } from '@app-buyer/shared/services/reorder/reorder.interface';
+} from 'src/app/shared';
+import { OrderReorderResponse } from 'src/app/shared/services/reorder/reorder.interface';
 
 @Component({
   selector: 'order-reorder',

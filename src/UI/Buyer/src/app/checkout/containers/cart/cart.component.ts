@@ -3,7 +3,7 @@ import {
   CartService,
   BaseResolveService,
   AppStateService,
-} from '@app-buyer/shared';
+} from 'src/app/shared';
 import {
   Order,
   LineItem,

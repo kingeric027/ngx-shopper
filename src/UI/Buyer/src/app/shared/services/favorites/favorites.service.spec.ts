@@ -2,8 +2,8 @@ import { TestBed, async } from '@angular/core/testing';
 
 import { OcMeService, MeUser } from '@ordercloud/angular-sdk';
 import { of, BehaviorSubject } from 'rxjs';
-import { FavoriteProductsService } from '@app-buyer/shared/services/favorites/favorites.service';
-import { AppStateService } from '@app-buyer/shared/services/app-state/app-state.service';
+import { FavoriteProductsService } from 'src/app/shared/services/favorites/favorites.service';
+import { AppStateService } from 'src/app/shared/services/app-state/app-state.service';
 import { ToastrService } from 'ngx-toastr';
 
 describe('FavoriteProductsService', () => {

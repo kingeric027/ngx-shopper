@@ -1,8 +1,8 @@
 import { Component, Input, EventEmitter, Output, OnInit } from '@angular/core';
 import { ListOrder } from '@ordercloud/angular-sdk';
-import { OrderListColumn } from '@app-buyer/order/models/order-list-column';
+import { OrderListColumn } from 'src/app/order/models/order-list-column';
 import { faCaretDown, faCaretUp } from '@fortawesome/free-solid-svg-icons';
-import { FavoriteOrdersService } from '@app-buyer/shared/services/favorites/favorites.service';
+import { FavoriteOrdersService } from 'src/app/shared/services/favorites/favorites.service';
 
 @Component({
   selector: 'order-list',

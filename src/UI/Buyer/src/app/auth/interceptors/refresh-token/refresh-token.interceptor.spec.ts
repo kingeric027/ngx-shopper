@@ -12,14 +12,14 @@ import {
   TestRequest,
 } from '@angular/common/http/testing';
 
-import { RefreshTokenInterceptor } from '@app-buyer/auth/interceptors/refresh-token/refresh-token.interceptor';
+import { RefreshTokenInterceptor } from 'src/app/auth/interceptors/refresh-token/refresh-token.interceptor';
 import {
   applicationConfiguration,
   AppConfig,
-} from '@app-buyer/config/app.config';
+} from 'src/app/config/app.config';
 import { OcTokenService } from '@ordercloud/angular-sdk';
 import { CookieModule } from 'ngx-cookie';
-import { AppAuthService } from '@app-buyer/auth/services/app-auth.service';
+import { AppAuthService } from 'src/app/auth/services/app-auth.service';
 import { of, BehaviorSubject } from 'rxjs';
 import { catchError } from 'rxjs/operators';
 

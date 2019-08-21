@@ -8,9 +8,9 @@ import { OcAuthService, OcTokenService } from '@ordercloud/angular-sdk';
 import {
   applicationConfiguration,
   AppConfig,
-} from '@app-buyer/config/app.config';
-import { AppAuthService } from '@app-buyer/auth/services/app-auth.service';
-import { AppStateService } from '@app-buyer/shared';
+} from 'src/app/config/app.config';
+import { AppAuthService } from 'src/app/auth/services/app-auth.service';
+import { AppStateService } from 'src/app/shared';
 
 @Component({
   selector: 'auth-login',

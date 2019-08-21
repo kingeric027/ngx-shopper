@@ -11,7 +11,7 @@ import { OcPasswordResetService } from '@ordercloud/angular-sdk';
 import {
   applicationConfiguration,
   AppConfig,
-} from '@app-buyer/config/app.config';
+} from 'src/app/config/app.config';
 
 @Component({
   selector: 'auth-forgot-password',

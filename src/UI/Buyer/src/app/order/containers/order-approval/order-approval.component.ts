@@ -1,6 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { FormGroup, FormBuilder } from '@angular/forms';
-import { ModalService } from '@app-buyer/shared';
+import { ModalService } from 'src/app/shared';
 import { OcOrderService } from '@ordercloud/angular-sdk';
 import { Router } from '@angular/router';
 import { ToastrService } from 'ngx-toastr';

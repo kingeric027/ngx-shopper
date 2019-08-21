@@ -6,10 +6,10 @@ import {
   fakeAsync,
 } from '@angular/core/testing';
 
-import { QuantityInputComponent } from '@app-buyer/shared/components/quantity-input/quantity-input.component';
+import { QuantityInputComponent } from 'src/app/shared/components/quantity-input/quantity-input.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ToastrService } from 'ngx-toastr';
-import { AppFormErrorService } from '@app-buyer/shared/services/form-error/form-error.service';
+import { AppFormErrorService } from 'src/app/shared/services/form-error/form-error.service';
 
 describe('QuantityInputComponent', () => {
   let component: QuantityInputComponent;

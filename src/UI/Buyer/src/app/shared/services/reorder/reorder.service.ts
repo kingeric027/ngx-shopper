@@ -1,10 +1,10 @@
 import { Injectable } from '@angular/core';
-import { OrderReorderResponse } from '@app-buyer/shared/services/reorder/reorder.interface';
+import { OrderReorderResponse } from 'src/app/shared/services/reorder/reorder.interface';
 import { Observable, of, forkJoin } from 'rxjs';
 import { flatMap } from 'rxjs/operators';
 import { OcMeService, BuyerProduct, LineItem } from '@ordercloud/angular-sdk';
 import { forEach as _forEach, differenceBy as _differenceBy } from 'lodash';
-import { CartService } from '@app-buyer/shared/services/cart/cart.service';
+import { CartService } from 'src/app/shared/services/cart/cart.service';
 
 @Injectable({
   providedIn: 'root',

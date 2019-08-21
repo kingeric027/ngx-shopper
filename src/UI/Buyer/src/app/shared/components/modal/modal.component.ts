@@ -9,7 +9,7 @@ import {
   QueryList,
   ViewContainerRef,
 } from '@angular/core';
-import { ModalService } from '@app-buyer/shared/services/modal/modal.service';
+import { ModalService } from 'src/app/shared/services/modal/modal.service';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 
 /**

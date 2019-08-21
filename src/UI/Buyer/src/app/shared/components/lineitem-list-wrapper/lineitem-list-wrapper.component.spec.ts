@@ -9,8 +9,8 @@ import { CookieModule } from 'ngx-cookie';
 import {
   applicationConfiguration,
   AppConfig,
-} from '@app-buyer/config/app.config';
-import { LineItemListWrapperComponent } from '@app-buyer/shared/components/lineitem-list-wrapper/lineitem-list-wrapper.component';
+} from 'src/app/config/app.config';
+import { LineItemListWrapperComponent } from 'src/app/shared/components/lineitem-list-wrapper/lineitem-list-wrapper.component';
 
 describe('LineItemSummaryComponent', () => {
   let component: LineItemListWrapperComponent;

@@ -3,7 +3,7 @@ import { Resolve, ActivatedRouteSnapshot } from '@angular/router';
 import { OcOrderService } from '@ordercloud/angular-sdk';
 import { forkJoin } from 'rxjs';
 import { map } from 'rxjs/operators';
-import { CartService } from '@app-buyer/shared';
+import { CartService } from 'src/app/shared';
 
 @Injectable({
   providedIn: 'root',

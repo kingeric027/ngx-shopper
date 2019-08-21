@@ -2,11 +2,11 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { SortFilterComponent } from './sort-filter.component';
 import { ReactiveFormsModule } from '@angular/forms';
-import { MapToIterablePipe } from '@app-buyer/shared/pipes/map-to-iterable/map-to-iterable.pipe';
+import { MapToIterablePipe } from 'src/app/shared/pipes/map-to-iterable/map-to-iterable.pipe';
 import {
   applicationConfiguration,
   AppConfig,
-} from '@app-buyer/config/app.config';
+} from 'src/app/config/app.config';
 import { InjectionToken } from '@angular/core';
 
 describe('SortFilterComponent', () => {

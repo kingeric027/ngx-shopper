@@ -1,5 +1,5 @@
 import { Component, OnInit, Input, ViewChild } from '@angular/core';
-import { CheckoutSectionBaseComponent } from '@app-buyer/checkout/components/checkout-section-base/checkout-section-base.component';
+import { CheckoutSectionBaseComponent } from 'src/app/checkout/components/checkout-section-base/checkout-section-base.component';
 import { Observable } from 'rxjs';
 import {
   OcMeService,
@@ -10,10 +10,10 @@ import {
   ListLineItem,
   Address,
 } from '@ordercloud/angular-sdk';
-import { AppStateService, ModalService } from '@app-buyer/shared';
+import { AppStateService, ModalService } from 'src/app/shared';
 import { filter } from 'rxjs/operators';
 import { ToastrService } from 'ngx-toastr';
-import { AddressFormComponent } from '@app-buyer/shared/components/address-form/address-form.component';
+import { AddressFormComponent } from 'src/app/shared/components/address-form/address-form.component';
 
 @Component({
   selector: 'checkout-address',

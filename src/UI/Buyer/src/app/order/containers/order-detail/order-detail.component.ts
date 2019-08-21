@@ -10,7 +10,7 @@ import {
   OrderApproval,
 } from '@ordercloud/angular-sdk';
 import { ActivatedRoute, ParamMap } from '@angular/router';
-import { AppPaymentService } from '@app-buyer/shared/services/app-payment-service/app-payment.service';
+import { AppPaymentService } from 'src/app/shared/services/app-payment-service/app-payment.service';
 import { uniqBy as _uniqBy } from 'lodash';
 
 @Component({

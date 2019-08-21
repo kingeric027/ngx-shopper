@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject, Subject } from 'rxjs';
 import { MeUser, Order, ListLineItem } from '@ordercloud/angular-sdk';
-import { AddToCartEvent } from '@app-buyer/shared/models/add-to-cart-event.interface';
+import { AddToCartEvent } from 'src/app/shared/models/add-to-cart-event.interface';
 
 @Injectable({
   providedIn: 'root',

@@ -9,8 +9,8 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { Router, ActivatedRoute } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 
-import { HeaderComponent } from '@app-buyer/layout/header/header.component';
-import { AppStateService, BaseResolveService } from '@app-buyer/shared';
+import { HeaderComponent } from 'src/app/layout/header/header.component';
+import { AppStateService, BaseResolveService } from 'src/app/shared';
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { NgbPopoverModule, NgbPopoverConfig } from '@ng-bootstrap/ng-bootstrap';
@@ -18,11 +18,11 @@ import { CookieModule } from 'ngx-cookie';
 import {
   applicationConfiguration,
   AppConfig,
-} from '@app-buyer/config/app.config';
+} from 'src/app/config/app.config';
 import { InjectionToken, NO_ERRORS_SCHEMA } from '@angular/core';
 import { BehaviorSubject, Subject } from 'rxjs';
-import { AppAuthService } from '@app-buyer/auth';
-import { SearchComponent } from '@app-buyer/shared/components/search/search.component';
+import { AppAuthService } from 'src/app/auth';
+import { SearchComponent } from 'src/app/shared/components/search/search.component';
 
 describe('HeaderComponent', () => {
   let component: HeaderComponent;

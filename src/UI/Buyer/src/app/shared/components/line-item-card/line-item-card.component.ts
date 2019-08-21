@@ -1,7 +1,7 @@
 import { Component, Output, Input, EventEmitter } from '@angular/core';
 import { LineItem, BuyerProduct } from '@ordercloud/angular-sdk';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
-import { CartService } from '@app-buyer/shared/services/cart/cart.service';
+import { CartService } from 'src/app/shared/services/cart/cart.service';
 
 @Component({
   selector: 'shared-line-item-card',

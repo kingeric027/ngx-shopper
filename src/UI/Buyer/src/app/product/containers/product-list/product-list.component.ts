@@ -10,11 +10,11 @@ import {
   ListFacet,
   ListLineItem,
 } from '@ordercloud/angular-sdk';
-import { CartService, AppStateService, ModalService } from '@app-buyer/shared';
-import { AddToCartEvent } from '@app-buyer/shared/models/add-to-cart-event.interface';
+import { CartService, AppStateService, ModalService } from 'src/app/shared';
+import { AddToCartEvent } from 'src/app/shared/models/add-to-cart-event.interface';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
-import { FavoriteProductsService } from '@app-buyer/shared/services/favorites/favorites.service';
-import { ProductSortStrategy } from '@app-buyer/product/models/product-sort-strategy.enum';
+import { FavoriteProductsService } from 'src/app/shared/services/favorites/favorites.service';
+import { ProductSortStrategy } from 'src/app/product/models/product-sort-strategy.enum';
 import { isEmpty as _isEmpty, each as _each } from 'lodash';
 
 @Component({

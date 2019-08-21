@@ -1,6 +1,6 @@
 import { Injectable, Inject } from '@angular/core';
 import { OcMeService, BuyerProduct, Order } from '@ordercloud/angular-sdk';
-import { AppStateService } from '@app-buyer/shared';
+import { AppStateService } from 'src/app/shared';
 import { ToastrService } from 'ngx-toastr';
 
 abstract class FavoritesService<T extends { ID?: string }> {

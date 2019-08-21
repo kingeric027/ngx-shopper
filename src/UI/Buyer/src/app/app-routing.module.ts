@@ -8,9 +8,9 @@ import {
   BaseResolve,
   IsProfiledUserGuard as isProfiledUser,
   HasTokenGuard as HasToken,
-} from '@app-buyer/shared';
-import { HomeComponent } from '@app-buyer/layout/home/home.component';
-import { TermsAndConditionsComponent } from '@app-buyer/static-pages/terms-and-conditions/terms-and-conditions.component';
+} from 'src/app/shared';
+import { HomeComponent } from 'src/app/layout/home/home.component';
+import { TermsAndConditionsComponent } from 'src/app/static-pages/terms-and-conditions/terms-and-conditions.component';
 import { ProductsModule } from './product/product.module';
 import { ProfileModule } from './profile/profile.module';
 import { CheckoutModule } from './checkout/checkout.module';

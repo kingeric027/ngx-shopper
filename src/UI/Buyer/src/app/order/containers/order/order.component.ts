@@ -4,8 +4,8 @@ import { map } from 'rxjs/operators';
 import { ActivatedRoute, Router } from '@angular/router';
 import { faCube, faTruck } from '@fortawesome/free-solid-svg-icons';
 import { Order } from '@ordercloud/angular-sdk';
-import { FavoriteOrdersService } from '@app-buyer/shared/services/favorites/favorites.service';
-import { ToggleFavoriteComponent } from '@app-buyer/shared/components/toggle-favorite/toggle-favorite.component';
+import { FavoriteOrdersService } from 'src/app/shared/services/favorites/favorites.service';
+import { ToggleFavoriteComponent } from 'src/app/shared/components/toggle-favorite/toggle-favorite.component';
 
 @Component({
   selector: 'order-order',

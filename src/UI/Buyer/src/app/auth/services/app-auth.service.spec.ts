@@ -1,5 +1,5 @@
 import { TestBed, inject } from '@angular/core/testing';
-import { applicationConfiguration } from '@app-buyer/config/app.config';
+import { applicationConfiguration } from 'src/app/config/app.config';
 
 import {
   Configuration,
@@ -8,12 +8,12 @@ import {
 } from '@ordercloud/angular-sdk';
 import { CookieModule, CookieService } from 'ngx-cookie';
 import { RouterTestingModule } from '@angular/router/testing';
-import { AppErrorHandler } from '@app-buyer/config/error-handling.config';
-import { AppAuthService } from '@app-buyer/auth/services/app-auth.service';
+import { AppErrorHandler } from 'src/app/config/error-handling.config';
+import { AppAuthService } from 'src/app/auth/services/app-auth.service';
 import { HttpClientTestingModule } from '@angular/common/http/testing';
 import { of, throwError } from 'rxjs';
 import { Router } from '@angular/router';
-import { AppStateService, BaseResolveService } from '@app-buyer/shared';
+import { AppStateService, BaseResolveService } from 'src/app/shared';
 import { catchError, finalize } from 'rxjs/operators';
 
 describe('AppAuthService', () => {

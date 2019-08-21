@@ -7,12 +7,12 @@ import {
   Inject,
 } from '@angular/core';
 import { FormGroup, FormBuilder } from '@angular/forms';
-import { ProductSortStrategy } from '@app-buyer/product/models/product-sort-strategy.enum';
+import { ProductSortStrategy } from 'src/app/product/models/product-sort-strategy.enum';
 import { each as _each } from 'lodash';
 import {
   applicationConfiguration,
   AppConfig,
-} from '@app-buyer/config/app.config';
+} from 'src/app/config/app.config';
 
 @Component({
   selector: 'product-sort-filter',

@@ -5,8 +5,8 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 import { BehaviorSubject } from 'rxjs';
 
-import { CartService, AppStateService } from '@app-buyer/shared';
-import { ProductDetailsComponent } from '@app-buyer/product/containers/product-details/product-details.component';
+import { CartService, AppStateService } from 'src/app/shared';
+import { ProductDetailsComponent } from 'src/app/product/containers/product-details/product-details.component';
 
 import { CookieService, CookieModule } from 'ngx-cookie';
 import {
@@ -19,10 +19,10 @@ import {
 import {
   applicationConfiguration,
   AppConfig,
-} from '@app-buyer/config/app.config';
+} from 'src/app/config/app.config';
 import { of } from 'rxjs';
-import { FavoriteProductsService } from '@app-buyer/shared/services/favorites/favorites.service';
-import { QuantityInputComponent } from '@app-buyer/shared/components/quantity-input/quantity-input.component';
+import { FavoriteProductsService } from 'src/app/shared/services/favorites/favorites.service';
+import { QuantityInputComponent } from 'src/app/shared/components/quantity-input/quantity-input.component';
 
 describe('ProductDetailsComponent', () => {
   let component: ProductDetailsComponent;

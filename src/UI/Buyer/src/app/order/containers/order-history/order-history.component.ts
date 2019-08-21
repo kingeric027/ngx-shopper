@@ -1,11 +1,11 @@
 import { Component, AfterViewInit, Input } from '@angular/core';
-import { OrderStatus } from '@app-buyer/order/models/order-status.model';
+import { OrderStatus } from 'src/app/order/models/order-status.model';
 import { OcMeService, ListOrder } from '@ordercloud/angular-sdk';
-import { MeOrderListOptions } from '@app-buyer/order/models/me-order-list-options';
+import { MeOrderListOptions } from 'src/app/order/models/me-order-list-options';
 import { Observable } from 'rxjs';
 import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 import { flatMap } from 'rxjs/operators';
-import { FavoriteOrdersService } from '@app-buyer/shared/services/favorites/favorites.service';
+import { FavoriteOrdersService } from 'src/app/shared/services/favorites/favorites.service';
 
 @Component({
   selector: 'order-history',

@@ -1,8 +1,8 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CategoryNavComponent } from '@app-buyer/product/components/category-nav/category-nav.component';
+import { CategoryNavComponent } from 'src/app/product/components/category-nav/category-nav.component';
 import { TreeModule } from 'angular-tree-component';
-import { CategoryTreeNode } from '@app-buyer/product/models/category-tree-node.class';
+import { CategoryTreeNode } from 'src/app/product/models/category-tree-node.class';
 import { BehaviorSubject } from 'rxjs';
 import { ActivatedRoute } from '@angular/router';
 

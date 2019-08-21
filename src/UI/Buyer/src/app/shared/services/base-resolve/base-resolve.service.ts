@@ -13,8 +13,8 @@ import {
   ListLineItem,
   LineItem,
 } from '@ordercloud/angular-sdk';
-import { CartService } from '@app-buyer/shared/services/cart/cart.service';
-import { AppStateService } from '@app-buyer/shared/services/app-state/app-state.service';
+import { CartService } from 'src/app/shared/services/cart/cart.service';
+import { AppStateService } from 'src/app/shared/services/app-state/app-state.service';
 import * as jwtDecode from 'jwt-decode';
 import { isUndefined as _isUndefined } from 'lodash';
 
@@ -22,7 +22,7 @@ import { isUndefined as _isUndefined } from 'lodash';
 import {
   applicationConfiguration,
   AppConfig,
-} from '@app-buyer/config/app.config';
+} from 'src/app/config/app.config';
 
 @Injectable({
   providedIn: 'root',
