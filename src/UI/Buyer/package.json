@@ -11,7 +11,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "precommit": "lint-staged --config ./lint-staged.config.js",
-    "prerender": "npm run build:ssr && ts-node ./prerender.ts"
+    "prerender": "ts-node ./prerender.ts"
   },
   "private": true,
   "dependencies": {
