@@ -7,6 +7,7 @@
     "start": "ng serve --open",
     "build": "ng build --configuration=production",
     "build:ssr": "ng run base-buyer:server",
+    "test-post-build": "node ./post-build.js",
     "test": "ng test --code-coverage",
     "lint": "ng lint",
     "e2e": "ng e2e",
