@@ -12,8 +12,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "precommit": "lint-staged --config ./lint-staged.config.js",
-    "post-build-test": "node ./post-build.js",
-    "prerender": "ts-node ./prerender.ts",
+    "prerender": "node ./post-build.js && ts-node ./prerender.ts",
     "preinstall": "rm -rf node_modules/@ordercloud/angular-sdk/.git"
   },
   "private": true,
